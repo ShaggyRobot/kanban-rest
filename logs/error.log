@@ -1,0 +1,37 @@
+{"level":30,"time":1684316235307,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"AppController {/}:"}
+{"level":30,"time":1684316235310,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/, GET} route"}
+{"level":30,"time":1684316235310,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"UsersController {/users}:"}
+{"level":30,"time":1684316235311,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/users, GET} route"}
+{"level":30,"time":1684316235311,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/users/:id, GET} route"}
+{"level":30,"time":1684316235312,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/users/:id, DELETE} route"}
+{"level":30,"time":1684316235313,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/users/:id, PUT} route"}
+{"level":30,"time":1684316235313,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"AuthController {/}:"}
+{"level":30,"time":1684316235314,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/signin, POST} route"}
+{"level":30,"time":1684316235314,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/signup, POST} route"}
+{"level":30,"time":1684316235314,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"BoardsController {/boards}:"}
+{"level":30,"time":1684316235315,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards, GET} route"}
+{"level":30,"time":1684316235319,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:id, GET} route"}
+{"level":30,"time":1684316235320,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards, POST} route"}
+{"level":30,"time":1684316235321,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:id, DELETE} route"}
+{"level":30,"time":1684316235321,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:id, PUT} route"}
+{"level":30,"time":1684316235321,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"ColumnsController {/boards/:boardId/columns}:"}
+{"level":30,"time":1684316235322,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns, GET} route"}
+{"level":30,"time":1684316235323,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns/:columnId, GET} route"}
+{"level":30,"time":1684316235323,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns, POST} route"}
+{"level":30,"time":1684316235323,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns/:columnId, DELETE} route"}
+{"level":30,"time":1684316235324,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns/:columnId, PUT} route"}
+{"level":30,"time":1684316235324,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"TasksController {/boards/:boardId/columns/:columnId/tasks}:"}
+{"level":30,"time":1684316235325,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, GET} route"}
+{"level":30,"time":1684316235325,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, GET} route"}
+{"level":30,"time":1684316235325,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, POST} route"}
+{"level":30,"time":1684316235326,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, DELETE} route"}
+{"level":30,"time":1684316235326,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, PUT} route"}
+{"level":30,"time":1684316235327,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"FileController {/}:"}
+{"level":30,"time":1684316235327,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/file, POST} route"}
+{"level":30,"time":1684316235327,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/file/:taskid/:filename, GET} route"}
+{"level":30,"time":1684316235327,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"LogsController {/logs}:"}
+{"level":30,"time":1684316235328,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/logs/error, GET} route"}
+{"level":30,"time":1684316235328,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Mapped {/logs/info, GET} route"}
+{"level":30,"time":1684316235331,"pid":15492,"hostname":"DESKTOP-JRLU3T9","msg":"Nest application successfully started"}
+{"level":30,"time":1684320273084,"pid":15492,"hostname":"DESKTOP-JRLU3T9","method":"GET","url":"/","query":{},"body":null,"statusCode":200,"responseTime":"2ms"}
+{"level":50,"time":1684320273193,"pid":15492,"hostname":"DESKTOP-JRLU3T9","method":"GET","url":"/favicon.ico","query":{},"body":null,"statusCode":404,"exception":"Cannot GET /favicon.ico","classException":"NotFoundException","responseTime":"0ms"}
