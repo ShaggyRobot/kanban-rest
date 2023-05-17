@@ -142,3 +142,40 @@
 {"level":30,"time":1684327015805,"pid":2672,"hostname":"DESKTOP-JRLU3T9","msg":"Nest application successfully started"}
 {"level":30,"time":1684327048790,"pid":2672,"hostname":"DESKTOP-JRLU3T9","method":"GET","url":"/","query":{},"body":null,"statusCode":200,"responseTime":"1ms"}
 {"level":50,"time":1684327048909,"pid":2672,"hostname":"DESKTOP-JRLU3T9","method":"GET","url":"/favicon.ico","query":{},"body":null,"statusCode":404,"exception":"Cannot GET /favicon.ico","classException":"NotFoundException","responseTime":"0ms"}
+{"level":30,"time":1684332029086,"pid":6772,"hostname":"WTFi4-PC","msg":"AppController {/}:"}
+{"level":30,"time":1684332029089,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/, GET} route"}
+{"level":30,"time":1684332029090,"pid":6772,"hostname":"WTFi4-PC","msg":"UsersController {/users}:"}
+{"level":30,"time":1684332029090,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/users, GET} route"}
+{"level":30,"time":1684332029091,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/users/:id, GET} route"}
+{"level":30,"time":1684332029092,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/users/:id, DELETE} route"}
+{"level":30,"time":1684332029093,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/users/:id, PUT} route"}
+{"level":30,"time":1684332029093,"pid":6772,"hostname":"WTFi4-PC","msg":"AuthController {/}:"}
+{"level":30,"time":1684332029094,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/signin, POST} route"}
+{"level":30,"time":1684332029099,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/signup, POST} route"}
+{"level":30,"time":1684332029099,"pid":6772,"hostname":"WTFi4-PC","msg":"BoardsController {/boards}:"}
+{"level":30,"time":1684332029100,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards, GET} route"}
+{"level":30,"time":1684332029101,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:id, GET} route"}
+{"level":30,"time":1684332029102,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards, POST} route"}
+{"level":30,"time":1684332029102,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:id, DELETE} route"}
+{"level":30,"time":1684332029103,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:id, PUT} route"}
+{"level":30,"time":1684332029103,"pid":6772,"hostname":"WTFi4-PC","msg":"ColumnsController {/boards/:boardId/columns}:"}
+{"level":30,"time":1684332029103,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns, GET} route"}
+{"level":30,"time":1684332029104,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns/:columnId, GET} route"}
+{"level":30,"time":1684332029104,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns, POST} route"}
+{"level":30,"time":1684332029105,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns/:columnId, DELETE} route"}
+{"level":30,"time":1684332029105,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns/:columnId, PUT} route"}
+{"level":30,"time":1684332029105,"pid":6772,"hostname":"WTFi4-PC","msg":"TasksController {/boards/:boardId/columns/:columnId/tasks}:"}
+{"level":30,"time":1684332029106,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, GET} route"}
+{"level":30,"time":1684332029106,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, GET} route"}
+{"level":30,"time":1684332029107,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks, POST} route"}
+{"level":30,"time":1684332029107,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, DELETE} route"}
+{"level":30,"time":1684332029108,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/boards/:boardId/columns/:columnId/tasks/:taskId, PUT} route"}
+{"level":30,"time":1684332029108,"pid":6772,"hostname":"WTFi4-PC","msg":"FileController {/}:"}
+{"level":30,"time":1684332029108,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/file, POST} route"}
+{"level":30,"time":1684332029109,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/file/:taskid/:filename, GET} route"}
+{"level":30,"time":1684332029109,"pid":6772,"hostname":"WTFi4-PC","msg":"LogsController {/logs}:"}
+{"level":30,"time":1684332029109,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/logs/error, GET} route"}
+{"level":30,"time":1684332029110,"pid":6772,"hostname":"WTFi4-PC","msg":"Mapped {/logs/info, GET} route"}
+{"level":30,"time":1684332029112,"pid":6772,"hostname":"WTFi4-PC","msg":"Nest application successfully started"}
+{"level":30,"time":1684332052166,"pid":6772,"hostname":"WTFi4-PC","method":"GET","url":"/","query":{},"body":null,"statusCode":200,"responseTime":"2ms"}
+{"level":50,"time":1684332052274,"pid":6772,"hostname":"WTFi4-PC","method":"GET","url":"/favicon.ico","query":{},"body":null,"statusCode":404,"exception":"Cannot GET /favicon.ico","classException":"NotFoundException","responseTime":"0ms"}

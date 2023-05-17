@@ -1,6 +1,7 @@
 .DS_Store
-# dist
-./logs
+dist
+tsconfig.build.tsbuildinfo
+logs
 node_modules
 *.code-workspace
 .DS_Store
