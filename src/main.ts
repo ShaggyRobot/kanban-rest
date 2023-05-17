@@ -6,9 +6,9 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { contentParser } from 'fastify-file-interceptor';
 
 import { AppModule } from './app.module';
-import { AllExceptionsFilter } from './exceptions/all-exceptions.filter';
-import { LogService } from './logger/logger.service';
-import { LoggingInterceptor } from './logger/logging.interceptor';
+// import { AllExceptionsFilter } from './exceptions/all-exceptions.filter';
+// import { LogService } from './logger/logger.service';
+// import { LoggingInterceptor } from './logger/logging.interceptor';
 
 const USE_FASTIFY = JSON.parse(process.env.USE_FASTIFY as string);
 const LOG_CONSOLE = JSON.parse(process.env.LOG_CONSOLE as string);
@@ -31,15 +31,15 @@ async function bootstrap() {
   const app = await _initApp(USE_FASTIFY, LOG_CONSOLE);
 
   // Global connect Logger
-  const logger = app.get<LogService>(LogService);
-  app.useLogger(logger);
+  // const logger = app.get<LogService>(LogService);
+  // app.useLogger(logger);
 
   // Exceptions Filter settings
   const { httpAdapter } = app.get<HttpAdapterHost>(HttpAdapterHost);
-  app.useGlobalFilters(new AllExceptionsFilter(httpAdapter, logger));
+  // app.useGlobalFilters(new AllExceptionsFilter(httpAdapter, logger));
 
   // Logging interceptor settings
-  app.useGlobalInterceptors(new LoggingInterceptor(logger));
+  // app.useGlobalInterceptors(new LoggingInterceptor(logger));
 
   // Validation Pipeline settings
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }));
@@ -70,7 +70,7 @@ async function bootstrap() {
   await app.listen(PORT, '0.0.0.0');
 
   process.on('unhandledRejection', () => {
-    logger.error({ msg: 'unhandledRejection event' });
+    // logger.error({ msg: 'unhandledRejection event' });
     process.exit(1);
   });
 }
