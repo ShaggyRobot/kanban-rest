@@ -31,7 +31,9 @@ async function bootstrap() {
     app.useGlobalFilters(new all_exceptions_filter_1.AllExceptionsFilter(httpAdapter, logger));
     app.useGlobalInterceptors(new logging_interceptor_1.LoggingInterceptor(logger));
     app.useGlobalPipes(new common_1.ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }));
+    
     const PORT = 3000;
+    
     const config = new swagger_1.DocumentBuilder()
         .setTitle('Kanban service')
         .setDescription('The kanban service API description')
