@@ -9,9 +9,9 @@
   "description": "REST service starter for RS School",
   "main": "dist/main.js",
   "scripts": {
-    "start": "node dist/main",
+    "start": "ts-node ./node_modules/typeorm/cli -f ./src/ormconfig.ts migration:run && node dist/main",
     "start:nest": "nest start",
-    "build": "ts-node ./node_modules/typeorm/cli -f ./src/ormconfig.ts migration:run && nest build",
+    "build": "nest build",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
