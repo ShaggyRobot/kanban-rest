@@ -14,13 +14,10 @@ const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const config_1 = require("@nestjs/config");
 const app_controller_1 = require("./app.controller");
-const logger_module_1 = require("./logger/logger.module");
 const users_module_1 = require("./resources/users/users.module");
 const boards_module_1 = require("./resources/boards/boards.module");
 const tasks_module_1 = require("./resources/tasks/tasks.module");
 const columns_module_1 = require("./resources/columns/columns.module");
-const files_module_1 = require("./resources/file/files.module");
-const logs_module_1 = require("./resources/logs/logs.module");
 const ormconfig_1 = __importDefault(require("./ormconfig"));
 let AppModule = class AppModule {
 };
@@ -36,13 +33,10 @@ AppModule = __decorate([
                 entities: [`${__dirname}/resources/**/**.entity{.ts,.js}`],
                 migrations: [`${__dirname}/migrations/*.ts`],
             }),
-            logger_module_1.LoggerModule,
             users_module_1.UsersModule,
             boards_module_1.BoardsModule,
             columns_module_1.ColumnsModule,
             tasks_module_1.TasksModule,
-            files_module_1.FileModule,
-            logs_module_1.LogsModule,
         ],
         controllers: [app_controller_1.AppController],
     })
