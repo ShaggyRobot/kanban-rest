@@ -9,7 +9,7 @@
   "description": "REST service starter for RS School",
   "main": "dist/main.js",
   "scripts": {
-    "start": "node dist/main",
+    "start": "node dist/main.js",
     "start:nest": "nest start",
     "build": "nest build",
     "start:dev": "nest start --watch",
