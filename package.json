@@ -7,9 +7,9 @@
   },
   "type": "commonjs",
   "description": "REST service starter for RS School",
-  "main": "src/server.js",
+  "main": "dist/main.js",
   "scripts": {
-    "start": "node main",
+    "start": "node dist/main",
     "start:nest": "nest start",
     "build": "nest build",
     "start:dev": "nest start --watch",
