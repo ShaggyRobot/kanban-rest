@@ -1,5 +1,5 @@
 .DS_Store
-# dist
+dist
 tsconfig.build.tsbuildinfo
 logs
 node_modules
