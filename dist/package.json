@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node main.js"
+    "start": "npm i && node main.js"
   },
   "dependencies": {
     "@nestjs/common": "^8.2.6",
